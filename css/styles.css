@@ -118,11 +118,11 @@ a {
 }
 
 .solutions-btn:hover {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .solutions-btn:focus {
-  color: #404bbf;
+  background-color: #404bbf;
 }
 
 .main-menu-list {
