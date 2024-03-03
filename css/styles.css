@@ -57,7 +57,9 @@ a {
   color: #404bbf;
 }
 
-.header-menu-item:hover,
+.header-menu-item:hover {
+  color: #404bbf;
+}
 .header-contact-item:focus {
   color: #404bbf;
 }
@@ -66,8 +68,15 @@ a {
   font-style: normal;
 }
 
-.header-contact-list {
+.header-contact-link {
   color: #434455;
+}
+.header-contact-link:hover {
+  color: #404bbf;
+}
+
+.header-contact-link:focus {
+  color: #404bbf;
 }
 
 .header-contact-item {
