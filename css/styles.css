@@ -132,6 +132,7 @@ a {
 }
 
 .our-team {
+  background-color: #f4f4fd;
 }
 
 .our-team-title {
@@ -141,9 +142,11 @@ a {
   letter-spacing: 0.02em;
   text-align: center;
   color: #2e2f42;
+  text-transform: capitalize;
 }
 
 .our-team-list {
+  background-color: #ffffff;
 }
 
 .our-team-person {
