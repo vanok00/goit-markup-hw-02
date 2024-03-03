@@ -62,13 +62,16 @@ a {
 }
 
 .header-contact {
+  font-style: normal;
 }
+
 .header-contact:hover,
 .header-contact:focus {
   color: #404bbf;
 }
 
 .header-contact-list {
+  color: #434455;
 }
 
 .header-contact-item {
@@ -77,10 +80,12 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: #434455;
 }
 
-.header-contact-link :hover,
+.header-contact-item:hover {
+  color: #404bbf;
+}
+
 .header-contact-link:focus {
   color: #404bbf;
 }
