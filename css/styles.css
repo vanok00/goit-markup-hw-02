@@ -56,8 +56,11 @@ a {
   color: #404bbf;
 }
 
-.header-menu-item {
+.header-menu-item:hover,
+.header-contact-item:focus {
+  color: #404bbf;
 }
+
 .header-contact {
 }
 .header-contact:hover,
@@ -230,4 +233,7 @@ a {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #f4f4fd;
+}
+
+.span-logo {
 }
