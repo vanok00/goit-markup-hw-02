@@ -25,8 +25,8 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.header-navigation {
+.header {
+  font-family: "Raleway", sans-serif;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
@@ -35,8 +35,16 @@ a {
   color: #2e2f42;
   background: #fff;
 }
+.header-navigation {
+}
 
 .header-logo {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
 }
 .header-logo span {
 }
@@ -50,6 +58,14 @@ a {
 }
 
 .header-menu-list {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #404bbf;
+}
+.header-menu-list:hover,
+.header-menu-list:focus {
+  color: #404bbf;
 }
 
 .header-menu-item {
@@ -59,19 +75,28 @@ a {
   letter-spacing: 0.02em;
   color: #2e2f42;
 }
-
-.header-contact-list {
-}
-
-.header-contact-item {
+.header-contact {
+  font-size: 16px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #434455;
 }
+.header-contact:hover,
+.header-contact:focus {
+  color: #404bbf;
+}
 
-.header-contact-link {
+.header-contact-list {
+}
+
+.header-contact-item {
+}
+
+.header-contact-link :hover,
+.header-contact-link:focus {
+  color: #404bbf;
 }
 
 .solutions {
@@ -197,7 +222,11 @@ a {
   letter-spacing: 0.02em;
   color: #434455;
 }
+.footer {
+  background-color: #2e2f42;
+}
 .footer-logo {
+  font-family: ;
   font-weight: 700;
   font-size: 18px;
   line-height: 1.17;
