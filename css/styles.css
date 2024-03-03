@@ -116,7 +116,11 @@ a {
   letter-spacing: 0.04em;
   color: #fff;
 }
-.solutions-btn:hover,
+
+.solutions-btn:hover {
+  color: #404bbf;
+}
+
 .solutions-btn:focus {
   color: #404bbf;
 }
