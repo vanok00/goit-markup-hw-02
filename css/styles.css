@@ -53,7 +53,7 @@ a {
   color: #2e2f42;
 }
 .header-menu-link:hover,
-.header-menu-list:focus {
+.header-menu-link:focus {
   color: #404bbf;
 }
 
